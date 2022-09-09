@@ -7,7 +7,7 @@ The C file name will be saved in the variable $CFILE
 
 The output should be saved in the file c
 
-## Repo:
+### Repo:
 
 GitHub repository: alx-low_level_programming
 
