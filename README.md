@@ -4,17 +4,29 @@ For this project, we look at this concept: C programming.
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 # General:
 Why C programming is awesome
+
 Who invented C
+
 Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
+
 What happens when you type gcc main.c
+
 What is an entry point
+
 What is main
+
 How to print text using printf, puts and putchar
+
 How to get the size of a specific type using the unary operator sizeof
+
 How to compile using gcc
+
 What is the default program name when compiling with gcc
+
 What is the official C coding style and how to check your code with betty-style
+
 How to find the right header to include in your source code when using a standard library function
+
 How does the main function influence the return value of the program
 
 # Requirements
@@ -94,5 +106,7 @@ emacs or vi a new file called betty, and copy the script below:
     done
   
 Once saved, exit file and change permissions to apply to all users with chmod a+x betty
+
 Move the betty file into /bin/ directory or somewhere else in your $PATH with sudo mv betty /bin/
+
 You can now type betty <filename> to run the Betty linter!
