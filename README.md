@@ -1,109 +1,109 @@
 # alx-low_level_programming
 # 0x00. C - Hello, World:
-For this project, we look at this concept: C programming.
+    For this project, we look at this concept: C programming.
 ## Learning Objectives:
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+    At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 ## General:
-Why C programming is awesome
+    Why C programming is awesome
 
-Who invented C
+    Who invented C
 
-Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
+    Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
 
-What happens when you type gcc main.c
+    What happens when you type gcc main.c
 
-What is an entry point
+    What is an entry point
 
-What is main
+    What is main
 
-How to print text using printf, puts and putchar
+    How to print text using printf, puts and putchar
 
-How to get the size of a specific type using the unary operator sizeof
+    How to get the size of a specific type using the unary operator sizeof
 
-How to compile using gcc
+    How to compile using gcc
 
-What is the default program name when compiling with gcc
+    What is the default program name when compiling with gcc
 
-What is the official C coding style and how to check your code with betty-style
+    What is the official C coding style and how to check your code with betty-style
 
-How to find the right header to include in your source code when using a standard library function
+    How to find the right header to include in your source code when using a standard library function
 
-How does the main function influence the return value of the program
+    How does the main function influence the return value of the program
 
 ## Resources
 #### Read or watch:
 
-Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first)
+    Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first)
 
-Dennis Ritchie
+    Dennis Ritchie
 
-“C” Programming Language: Brian Kernighan
+    “C” Programming Language: Brian Kernighan
 
-Why C Programming Is Awesome
+    Why C Programming Is Awesome
 
-Learning to program in C part 1
+    Learning to program in C part 1
 
-Learning to program in C part 2
+    Learning to program in C part 2
 
-Understanding C program Compilation Process
+    Understanding C program Compilation Process
 
-Betty Coding Style
+    Betty Coding Style
 
-Hash-bang under the hood (Look at only after you finish consuming the other resources)
+    Hash-bang under the hood (Look at only after you finish consuming the other resources)
 
-Linus Torvalds on C vs. C++ (Look at only after you finish consuming the other resources)
+    Linus Torvalds on C vs. C++ (Look at only after you finish consuming the other resources)
 
 #### man or help:
 
-gcc
+    gcc
 
-printf (3)
+    printf (3)
 
-puts
+    puts
 
-putchar
+    putchar
 
 
 ## Requirements
 ### C
-Allowed editors: vi, vim, emacs
+    Allowed editors: vi, vim, emacs
 
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+    All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 
-All your files should end with a new line
+    All your files should end with a new line
 
-A README.md file at the root of the repo, containing a description of the repository
+    A README.md file at the root of the repo, containing a description of the repository
 
-A README.md file, at the root of the folder of this project, containing a description of the project
+    A README.md file, at the root of the folder of this project, containing a description of the project
 
-There should be no errors and no warnings during compilation
+    There should be no errors and no warnings during compilation
 
-You are not allowed to use system
+    You are not allowed to use system
 
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+    Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
 
-Shell Scripts
+    Shell Scripts
 
-Allowed editors: vi, vim, emacs
+    Allowed editors: vi, vim, emacs
 
-All your scripts will be tested on Ubuntu 20.04 LTS
+    All your scripts will be tested on Ubuntu 20.04 LTS
 
-All your scripts should be exactly two lines long ($ wc -l file should print 2)
+    All your scripts should be exactly two lines long ($ wc -l file should print 2)
 
-All your files should end with a new line
+    All your files should end with a new line
 
-The first line of all your files should be exactly #!/bin/bash
+    The first line of all your files should be exactly #!/bin/bash
 
 ## Shell Scripts
-Allowed editors: vi, vim, emacs
+    Allowed editors: vi, vim, emacs
 
-All your scripts will be tested on Ubuntu 20.04 LTS
+    All your scripts will be tested on Ubuntu 20.04 LTS
 
-All your scripts should be exactly two lines long ($ wc -l file should print 2)
+    All your scripts should be exactly two lines long ($ wc -l file should print 2)
 
-All your files should end with a new line
+    All your files should end with a new line
 
-The first line of all your files should be exactly #!/bin/bash
+    The first line of all your files should be exactly #!/bin/bash
 
 ## More Info
 ### Betty linter
@@ -150,85 +150,85 @@ You can now type betty <filename> to run the Betty linter!
 ## Resources
 #### Read or watch:
 
-Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first and make sure you understand the slides: “comments”, “Data types | Integer types”, “Declaration”, “Characters”, “Arithmetic operators”, “Variables assignments”, “Comparisons”, “Logical operators”, “if, if…else”, “while loops”.)
+    Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first and make sure you understand the slides: “comments”, “Data types | Integer types”, “Declaration”, “Characters”, “Arithmetic operators”, “Variables assignments”, “Comparisons”, “Logical operators”, “if, if…else”, “while loops”.)
 
-Keywords and identifiers
+    Keywords and identifiers
 
-integers
-    
-Arithmetic Operators in C
-    
-If statements in C
+    integers
 
-if…else statement
+    Arithmetic Operators in C
 
-Relational operators
+    If statements in C
 
-Logical operators
+    if…else statement
 
-while loop in C
+    Relational operators
 
-While loop
+    Logical operators
 
-#### man or help:
+    while loop in C
 
-ascii (You do not need to learn about scanf, getc, getchar, EOF, EXIT_SUCCESS, time, rand, srand, RAND_MAX, for loops, do...while loops, functions.)
+    While loop
+
+    #### man or help:
+
+    ascii (You do not need to learn about scanf, getc, getchar, EOF, EXIT_SUCCESS, time, rand, srand, RAND_MAX, for loops, do...while loops, functions.)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 ## General
 
-What are the arithmetic operators and how to use them
+    What are the arithmetic operators and how to use them
 
-What are the logical operators (sometimes called boolean operators) and how to use them
+    What are the logical operators (sometimes called boolean operators) and how to use them
 
-What the the relational operators and how to use them
+    What the the relational operators and how to use them
 
-What values are considered TRUE and FALSE in C
+    What values are considered TRUE and FALSE in C
 
-What are the boolean operators and how to use them
+    What are the boolean operators and how to use them
 
-How to use the if, if ... else statements
+    How to use the if, if ... else statements
 
-How to use comments
+    How to use comments
 
-How to declare variables of types char, int, unsigned int
+    How to declare variables of types char, int, unsigned int
 
-How to assign values to variables
+    How to assign values to variables
 
-How to print the values of variables of type char, int, unsigned int with printf
+    How to print the values of variables of type char, int, unsigned int with printf
 
-How to use the while loop
+    How to use the while loop
 
-How to use variables with the while loop
+    How to use variables with the while loop
 
-How to print variables using printf
+    How to print variables using printf
 
-What is the ASCII character set
+    What is the ASCII character set
 
-What are the purpose of the gcc flags -m32 and -m64
+    What are the purpose of the gcc flags -m32 and -m64
 
 #### Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+    You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
 
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
+    You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 
-You are not allowed to publish any content of this project.
+    You are not allowed to publish any content of this project.
 
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
+    Any form of plagiarism is strictly forbidden and will result in removal from the program.
 ## Requirements:
 ### General:
-Allowed editors: vi, vim, emacs
+    Allowed editors: vi, vim, emacs
 
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+    All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 
-All your files should end with a new line
+    All your files should end with a new line
 
-A README.md file, at the root of the folder of the project
+    A README.md file, at the root of the folder of the project
 
-There should be no errors and no warnings during compilation
+    There should be no errors and no warnings during compilation
 
-You are not allowed to use system
+    You are not allowed to use system
 
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+    Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
