@@ -12,7 +12,7 @@ int main(void)
 		putchar(cases);
 	for (cases = 'A'; cases <= 'Z'; cases++)
 		putchar(cases);
-		putchar('\n');
+	putchar('\n');
 
-		return (0);
+	return (0);
 }
