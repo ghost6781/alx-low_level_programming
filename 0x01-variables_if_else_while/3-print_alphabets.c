@@ -10,9 +10,9 @@ int main(void)
 
 	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 		putchar(lowerCase);
-	for (upperCase = 'A'; upperCase <= 'Z'; upperCase++)
-		putchar(upperCase);
-		putchar('\n');
+		for (upperCase = 'A'; upperCase <= 'Z'; upperCase++)
+			putchar(upperCase);
+			putchar('\n');
 
 		return (0);
 }
