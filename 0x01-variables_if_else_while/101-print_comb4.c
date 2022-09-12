@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
- * main - Prints possible combinations of three different digits, in ascending order, separated by a comma followed by a space.
- *
- * Return: Always 0 (Success)
- */
-
+* main - Prints possible combinations of three different digits, in ascending order, separated by a comma followed by a space.
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int a, b, c;
