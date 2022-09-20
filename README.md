@@ -354,26 +354,26 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 # 0x05. C - Pointers, arrays and strings
 
 ## Concepts
-For this project, we expect you to look at these concepts:
+        For this project, we expect you to look at these concepts:
 
-Pointers and arrays(https://alx-intranet.hbtn.io/concepts/60)
+        Pointers and arrays(https://alx-intranet.hbtn.io/concepts/60)
 
-Data Structures(https://alx-intranet.hbtn.io/concepts/120)
+        Data Structures(https://alx-intranet.hbtn.io/concepts/120)
 
 
 ## Resources
-Read or watch:
+    ### Read or watch:
 
-C - Arrays(https://alx-intranet.hbtn.io/rltoken/PVi2XMuApOK3jfhsoqsyXw)
+        C - Arrays(https://alx-intranet.hbtn.io/rltoken/PVi2XMuApOK3jfhsoqsyXw)
 
-C - Pointers(https://alx-intranet.hbtn.io/rltoken/oyHybzYBeFiLUMALpb_usA)
+        C - Pointers(https://alx-intranet.hbtn.io/rltoken/oyHybzYBeFiLUMALpb_usA)
 
-C - Strings(https://alx-intranet.hbtn.io/rltoken/sUeh9qDyW9pePOfJIpx_Bw)
+        C - Strings(https://alx-intranet.hbtn.io/rltoken/sUeh9qDyW9pePOfJIpx_Bw)
 
-Memory Layout(https://alx-intranet.hbtn.io/rltoken/0k6CD2ZMzSFOMUxMOBiAlQ)
+        Memory Layout(https://alx-intranet.hbtn.io/rltoken/0k6CD2ZMzSFOMUxMOBiAlQ)
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+    At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 ### General:
         What are pointers and how to use them
