@@ -1,40 +1,20 @@
 #include "main.h"
-#include <string.h>
 
 /**
- * _puts - prints a string to stdout
- * @str: string to be printed
- *
- * Return: void
+ * print_rev - function prints a string in reverse,
+ * followed by a new line.
+ * @s: an input string
+ * Return: Nothing
  */
 void print_rev(char *s)
 {
-	int i, length;
+	int len = 0;
 
-	length = strlen(str);
+	while (s[len] != '\0')
+		len++;
 
-	/* 
-	 * To traverse string from the end 
-	 */
-	for (i = lenght - 1; i >= 0; i--)
-	{
-		if str[i] == ' ')
-		{
-			/*
-			* put the null character at the
-			* position of space characters for
-			* the next iteration.
-			*/
-			str[i] = '\0';
-			/* 
-			 * start on the next character
-			 */
-			_putchar("%s" , &(str[i]) + 1);
-		}
-	}
+	while (len)
+		_putchar(s[--len]);
 
-			/*
-			*printing the last word
-			*/
-			_putchar("%s", str);
+	_putchar('\n');
 }
