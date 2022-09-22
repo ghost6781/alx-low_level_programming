@@ -395,6 +395,7 @@ Letters t and T should be replaced by 7
 
 Letters l and L should be replaced by 1
 
+
 Prototype: char *leet(char *);
 
 You can only use one if in your code
