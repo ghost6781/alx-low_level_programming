@@ -360,7 +360,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ## Resources
 
-###Read or watch:
+### Read or watch:
+    
     Nested while loops (https://alx-intranet.hbtn.io/rltoken/aDRkFzUkVysnD94Dpm3w5g)
 
     C - Functions (https://alx-intranet.hbtn.io/rltoken/zf4IZeoe0yFZL2X7_nznQQ)
