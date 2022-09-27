@@ -98,26 +98,26 @@ Write a function that multiplies two integers.
 
 Prototype: int mul(int a, int b);
 
-  julien@ubuntu:~/0x04$ cat 2-main.c
-  #include "main.h"
-  #include <stdio.h>
+    julien@ubuntu:~/0x04$ cat 2-main.c
+    #include "main.h"
+    #include <stdio.h>
 
-  /**
-   * main - check the code
-   *
-   * Return: Always 0.
-   */
-  int main(void)
-  {
-      printf("%d\n", mul(98, 1024));
-      printf("%d\n", mul(-402, 4096));
-      return (0);
-  }
-  julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-mul.c -o 2-mul
-  julien@ubuntu:~/0x04$ ./2-mul 
-  100352
-  -1646592
-  julien@ubuntu:~/0x04$ 
+    /**
+     * main - check the code
+     *
+     * Return: Always 0.
+     */
+    int main(void)
+    {
+        printf("%d\n", mul(98, 1024));
+        printf("%d\n", mul(-402, 4096));
+        return (0);
+    }
+    julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-mul.c -o 2-mul
+    julien@ubuntu:~/0x04$ ./2-mul 
+    100352
+    -1646592
+    julien@ubuntu:~/0x04$ 
 
 ### Repo:
 
@@ -207,32 +207,32 @@ Prototype: void more_numbers(void);
 
 You can only use _putchar three times in your code
 
-  julien@ubuntu:~/0x04$ cat 5-main.c
-  #include "main.h"
+    julien@ubuntu:~/0x04$ cat 5-main.c
+    #include "main.h"
 
-  /**
-   * main - check the code
-   *
-   * Return: Always 0.
-   */
-  int main(void)
-  {
-      more_numbers();
-      return (0);
-  }
-  julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 5-main.c 5-more_numbers.c -o 5-more_numbers
-  julien@ubuntu:~/0x04$ ./5-more_numbers 
-  01234567891011121314
-  01234567891011121314
-  01234567891011121314
-  01234567891011121314
-  01234567891011121314
-  01234567891011121314
-  01234567891011121314
-  01234567891011121314
-  01234567891011121314
-  01234567891011121314
-  julien@ubuntu:~/0x04
+    /**
+     * main - check the code
+     *
+     * Return: Always 0.
+     */
+    int main(void)
+    {
+        more_numbers();
+        return (0);
+    }
+    julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 5-main.c 5-more_numbers.c -o 5-more_numbers
+    julien@ubuntu:~/0x04$ ./5-more_numbers 
+    01234567891011121314
+    01234567891011121314
+    01234567891011121314
+    01234567891011121314
+    01234567891011121314
+    01234567891011121314
+    01234567891011121314
+    01234567891011121314
+    01234567891011121314
+    01234567891011121314
+    julien@ubuntu:~/0x04
 
 ### Repo:
 
@@ -257,29 +257,29 @@ The line should end with a \n
 
 If n is 0 or less, the function should only print \n
 
-  julien@ubuntu:~/0x04$ cat 6-main.c
-  #include "main.h"
+    julien@ubuntu:~/0x04$ cat 6-main.c
+    #include "main.h"
 
-  /**
-   * main - check the code
-   *
-   * Return: Always 0.
-   */
-  int main(void)
-  {
-      print_line(0);
-      print_line(2);
-      print_line(10);
-      print_line(-4);
-      return (0);
-  }
-  julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-print_line.c -o 6-lines
-  julien@ubuntu:~/0x04$ ./6-lines | cat -e
-  $
-  __$
-  __________$
-  $
-  julien@ubuntu:~/0x04$ 
+    /**
+     * main - check the code
+     *
+     * Return: Always 0.
+     */
+    int main(void)
+    {
+        print_line(0);
+        print_line(2);
+        print_line(10);
+        print_line(-4);
+        return (0);
+    }
+    julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-print_line.c -o 6-lines
+    julien@ubuntu:~/0x04$ ./6-lines | cat -e
+    $
+    __$
+    __________$
+    $
+    julien@ubuntu:~/0x04$ 
 
 ### Repo:
 
