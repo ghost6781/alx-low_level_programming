@@ -11,24 +11,23 @@
 
 int main(void)
 {
-	int x;
+	int i;
 
-	x = 1;
-	while (x <= 100)
+	i = 1;
+	while (i <= 100)
 	{
-		if (x % 15 == 0 && x % 3 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 			printf("FizzBuzz");
-		else if (x % 3 == 0)
+		else if (i % 3 == 0)
 			printf("Fizz");
-		else if (x % 5 == 0)
+		else if (i % 5 == 0)
 			printf("Buzz");
 		else
-			printf("%d ", x);
+			printf("%d", i);
 
-	       if (x != 100)
-		       printf(" ");
-
-		x++;
+		if (i != 100)
+			printf(" ");
+		i++;
 	}
 	printf("\n");
 
